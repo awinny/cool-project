@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "cui": "cd node_modules/corporate-ui && npm i",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -21,6 +22,7 @@
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.4",
+    "corporate-ui": "git+https://github.com/scania/corporate-ui.git#feature/Easier_support_for_dependencies",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
